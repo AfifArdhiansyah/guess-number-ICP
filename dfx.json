@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "ICP-guess-number": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle ICP-guess-number",
+            "wasm": ".azle/ICP-guess-number/ICP-guess-number.wasm",
+            "gzip": true
+        }
+    }
+}
+

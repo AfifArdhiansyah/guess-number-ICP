@@ -1,0 +1,4 @@
+service: () -> {
+    doGuessNumber: (text) -> (text);
+    getScore: () -> (text) query;
+}
